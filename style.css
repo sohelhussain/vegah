@@ -152,13 +152,14 @@ nav::after {
   display: inline-block;
   border-radius: 0.2rem;
   /* background: #fff; */
-  background: var(--dark-box);
+  background-color: var(--dark-box);
   position: relative;
   z-index: 2;
-
+  
   &:hover {
     -webkit-box-shadow: 0 0 0.35rem 0 rgba(0, 0, 0, 0.5);
     box-shadow: 0 0 0.35rem 0 rgba(0, 0, 0, 0.5);
+    background-color: var(--dark-box);
     position: absolute;
 
     > li {
@@ -255,6 +256,7 @@ li {
 
     div {
       display: block;
+      background-color: var(--dark-box);
     }
   }
 
